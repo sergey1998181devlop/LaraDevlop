@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="04f64699-7511-4cc5-b34d-ee6ce5d6f35e" name="devlopLaravel">
+        <fileTransfer rootFolder="/home/t/t977320g/devlop/public_html" accessType="SFTP" host="5.101.153.79" port="22" sshConfigId="9334eef2-42ad-4c95-8ffe-4f9d18cb3aa0" sshConfig="t977320g_devlop@5.101.153.79:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
