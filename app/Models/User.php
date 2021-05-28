@@ -40,4 +40,9 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+    public function departments()
+    {
+        return $this->belongsToMany('App\Models\Department' , 'department_emploee' , 'emploee_id' );
+    }
+
 }
